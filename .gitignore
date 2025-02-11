@@ -29,4 +29,8 @@ Innopolis/1 semester/venvs/
 
 *.gz
 
-Innopolis/2 semester/Advanced_Machine_Learning/Labs/lab1/data/
+data/
+
+models/
+
+logs/
