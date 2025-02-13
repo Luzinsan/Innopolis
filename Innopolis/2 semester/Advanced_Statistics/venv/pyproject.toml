@@ -9,4 +9,5 @@ dependencies = [
     "matplotlib>=3.10.0",
     "notebook>=7.3.2",
     "numpy>=2.2.2",
+    "plotly>=6.0.0",
 ]
