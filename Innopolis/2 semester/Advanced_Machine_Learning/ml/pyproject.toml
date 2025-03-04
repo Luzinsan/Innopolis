@@ -5,14 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "datasets>=3.3.1",
+    "fasttext>=0.9.3",
+    "gensim>=4.3.2",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.0",
     "notebook>=7.3.2",
-    "numpy>=2.2.2",
+    "numpy>=1.22.4,<1.29.0",
+    "scikit-learn>=1.6.1",
+    "scipy==1.12",
     "tensorboard>=2.18.0",
     "tensorboardx>=2.6.2.2",
     "torch>=2.6.0",
     "torchsummary>=1.5.1",
+    "torchtext>=0.18.0",
     "torchvision>=0.21.0",
     "tqdm>=4.67.1",
 ]
