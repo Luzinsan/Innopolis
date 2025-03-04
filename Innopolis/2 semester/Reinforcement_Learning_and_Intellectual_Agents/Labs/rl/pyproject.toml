@@ -11,6 +11,8 @@ dependencies = [
     "notebook>=7.3.2",
     "numpy>=2.2.2",
     "pygame>=2.6.1",
+    "scipy>=1.15.1",
+    "seaborn>=0.13.2",
     "stable-baselines3>=2.5.0",
     "tensorboard>=2.18.0",
 ]
