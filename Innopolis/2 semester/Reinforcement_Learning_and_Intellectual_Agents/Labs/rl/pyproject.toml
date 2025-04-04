@@ -3,16 +3,21 @@ name = "rl"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.8.20"
 dependencies = [
-    "gymnasium>=1.0.0",
+    "ffmpeg>=1.4",
+    "gym==0.24",
+    "imageio>=2.35.1",
+    "imageio-ffmpeg>=0.5.1",
     "jupyter>=1.1.1",
-    "matplotlib>=3.10.0",
     "notebook>=7.3.2",
-    "numpy>=2.2.2",
+    "numpy>=1.24.4",
+    "pickle5>=0.0.12",
     "pygame>=2.6.1",
-    "scipy>=1.15.1",
-    "seaborn>=0.13.2",
-    "stable-baselines3>=2.5.0",
-    "tensorboard>=2.18.0",
+    "pyglet==1.5.1",
+    "pyopengl>=3.1.9",
+    "pyvirtualdisplay>=3.0",
+    "pyyaml==6.0",
+    "tqdm>=4.67.1",
+    "xvfbwrapper>=0.2.10",
 ]
